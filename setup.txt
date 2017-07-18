@@ -1,0 +1,10 @@
+$ conda create --name learning-python python=3
+$ source activate learning-python
+(learning-python) $ conda install --name learning-python scikit-learn
+(learning-python) $ conda install --name learning-python scikit-image
+(learning-python) $ conda install --name learning-python matplotlib
+(learning-python) $ conda install --name learning-python -c menpo opencv3
+(learning-python) $ conda install --name learning-python -c conda-forge mahotas
+(learning-python) $ conda install --name learning-python -c anaconda quandl
+(learning-python) $ conda install --name learning-python jupyter
+$ source deactivate
