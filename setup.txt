@@ -6,5 +6,7 @@ $ source activate learning-python
 (learning-python) $ conda install --name learning-python -c menpo opencv3
 (learning-python) $ conda install --name learning-python -c conda-forge mahotas
 (learning-python) $ conda install --name learning-python -c anaconda quandl
+(learning-python) $ conda install --name learning-python -c https://conda.anaconda.org/hargup/channel/pypi googlefinance
+#### (learning-python) $ conda install --name learning-python -c quantopian ta-lib
 (learning-python) $ conda install --name learning-python jupyter
 $ source deactivate
